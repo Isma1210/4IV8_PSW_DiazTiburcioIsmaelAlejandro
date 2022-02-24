@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('fondo.jpg');
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.userlogin{
+    background-color:rgb(218, 245, 236);
+    height: 400px;
+    width: 400px;
+    border-radius: 15px solid rgb(154,25,23);
+    margin-top: 10%;
+    text-align-last: center;
+
+}
+
+.title{
+    text-align: center;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    padding-top: 30px;
+    color: aqua;
+}
+
+.userid{
+    padding-top: 20px;
+}
+
+.userid h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    margin-left: 50px;
+    margin-right: 5px;
+    padding-left: 5px;
+}
+
+.userid input{
+    height: 50px;
+    width: 150px;
+    border: solid 2px greenyellow;
+    border-radius: 10px;
+
+}
+
+.password h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    margin-left: 50px;
+    margin-right: 5px;
+    padding-left: 5px;
+}
+
+.password input{
+    height: 50px;
+    width: 150px;
+    border: solid 2px greenyellow;
+    border-radius: 10px;
+    
+}
+
+.button{
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.button{
+    margin-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.a{
+    margin-top: 20px;
+    float: left;
+    margin-left: 60px;
+    color: coral;
+
+}
+
+h5{
+    margin-top: 20px;
+    font-size: 15px;
+
+}
