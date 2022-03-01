@@ -1,6 +1,6 @@
 @keyframes animacion_test{
     from{
-        background-color: rgb(244, 127, 255);
+        background-color: rgb(255, 225, 127);
     }
     to{
         background-color: darkmagenta;
