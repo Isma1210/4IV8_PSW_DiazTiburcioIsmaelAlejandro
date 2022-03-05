@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <script src="JS/validacion.js"></script>
+</head>
+<body>
+    <div class="conteinern-forms">
+        <form method="get" name="formulario" onsubmit= return validar(this)" action="">
+            <br>
+            <p>
+                Todos los formularios  de la web manejan 
+                metodos para poder enviar o recibir inofrmacion,
+                los mas comunes son:
+
+            <h1>GET:</h1> este metodo se encarga de enviar la inofrmacion
+            por la URL o salida estandar del navegador, esto propicia que 
+            de la informacion no exista y es visible
+            <br>
+            <h2>POST: este metodo se emcarga de enviar la informacion 
+                oculta qie nos ofrece cierto nivel de seguridad en la base de datos
+            </h2>
+            <br>
+            <label>Nombre: </label>
+            <input type="text" name="nombre" id="nombre">
+            <br>
+            <label>Edad</label>
+            <input type="text" name="edad" id="edad">
+            <br>
+            <label>E-mail</label>
+            <input type="text" name="email" id="email">
+        </p>
+        <br>
+        <input type="submit" name="enviar un valor" value="Enviar Datos">
+        <br>
+        <input type="reset" name="borrar" value="Borrar datos">
+        </form>
+
+        <div>
+            <table id="Tabla" name="table">
+                <thead>
+                    <tr>
+                        <th>Capital</th>
+                        <th>Periodo</th>
+                        <th>Interes</th>
+                        <th>Amortizacion</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
