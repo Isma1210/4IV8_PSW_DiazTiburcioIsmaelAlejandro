@@ -1,0 +1,95 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: darkcyan;
+}
+
+h2,h3{
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.container{
+    width: 100%;
+    padding: 1rem;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.problema-container{
+    background-color: rgb(127, 89, 199);
+    padding: 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 12),
+                0   1px 2px rgba(0,0,0,0.24)
+
+}
+
+.problema-title{
+    color: rgb(206, 222, 1);
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ebaf0b;
+}
+
+input.problema-input{
+    padding: 1rem;
+    color: aqua;
+    background: none;
+    width: 100%;
+    border-bottom: 2px solid blue;
+    font-size: 18px;
+}
+
+button.problema-button{
+    border: none;
+    background-color: rgb(0, 255, 21);
+    color: lightcoral;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0.8 rem;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .13),
+                0 1px 3px rgba(0, 0, 0, .23);
+}
+
+.problema-content{
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.problema-output{
+    width: 70%;
+    color: rgba(235, 235, 228, 70);
+    font-family: monospace;
+    border: 1px solid cornflowerblue;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 18px;
+
+}
+
+.table.problema-table{
+    margin: 1rem;
+    border: 1px solid greenyellow;
+
+}
+
+td{
+    border-bottom: 1px solid rgb(90, 1, 2);
+    padding-bottom: 1rem;
+    border-left: 1px solid brown;
+    
+}
