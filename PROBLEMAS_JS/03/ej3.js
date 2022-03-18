@@ -2,7 +2,7 @@ function leerValores(){
 
 	var compra = parseFloat(document.getElementById("compra").value);
     var compra2 = document.getElementById("compra").value;
-    var validar=/^[0-9]+$/;
+    var validar=/^[0-9.]+$/;
     
     
 

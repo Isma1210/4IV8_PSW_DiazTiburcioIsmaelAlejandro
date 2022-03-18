@@ -1,7 +1,7 @@
 function leerValores(){
 	var monto = parseFloat(document.getElementById("dinero").value);
 	var campo= document.getElementById("dinero").value;
-	var validar=/^[0-9]+$/;
+	var validar=/^[0-9.]+$/;
 
 	if (monto<0) {
 		alert("No puede poner numeros negativos")

@@ -12,7 +12,7 @@ function leerValores(){
 
     var cVentas=(v1+v2+v3)*(0.10);
     var sTotal=sBase+cVentas
-    var validar=/^[0-9]+$/;
+    var validar=/^[0-9.]+$/;
 
 
     if (sBase<0 || v1<0 || v2<0 || v3<0   ){
@@ -31,13 +31,6 @@ function leerValores(){
 	}else{
 		alert("Ingrese solo números!!!");
 	}
-
-
-
-	
-
-
-       
 }
 
 
