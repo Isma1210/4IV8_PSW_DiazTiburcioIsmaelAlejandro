@@ -8,17 +8,17 @@ function leerValores(){
 
     //alert("LeerValores: "+pTotal);
     if (compra<0) {
-		alert("No sea pendejo no puede poner numeros negativos")
+		alert("No puede poner numeros negativos")
 		
 	}else if(compra2==""){
-		alert("Otra vez usted pendejo");
+		alert("Ingrese los datos");
     }else if(compra2.match(validar)){
         var descuento=(compra)*(0.15);
         var pTotal=compra-descuento;
         document.getElementById('total').textContent = "El total a pagar es de: "+pTotal+" pesos";
 		
 	}else{
-		alert("Ingrese solo números chingada madre!!!");
+		alert("Ingrese solo números!!!");
 	}
 
 

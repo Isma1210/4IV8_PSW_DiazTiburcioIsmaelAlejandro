@@ -16,10 +16,10 @@ function leerValores(){
 
 
     if (sBase<0 || v1<0 || v2<0 || v3<0   ){
-		alert("No sea pendejo no puede poner numeros negativos")
+		alert("No puede poner numeros negativos")
 		
 	}else if(sBase2=="" || v12=="" || v22=="" || v32==""){
-		alert("Otra vez usted pendejo");
+		alert("Inrese los datos");
 
 	}else if(sBase2.match(validar) && v12.match(validar) && v22.match(validar) && v32.match(validar)){
 		var cVentas=(v1+v2+v3)*(0.10);
@@ -29,7 +29,7 @@ function leerValores(){
 
 
 	}else{
-		alert("Ingrese solo números chingada madre!!!");
+		alert("Ingrese solo números!!!");
 	}
 
 

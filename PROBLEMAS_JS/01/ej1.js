@@ -4,10 +4,10 @@ function leerValores(){
 	var validar=/^[0-9]+$/;
 
 	if (monto<0) {
-		alert("No sea pendejo no puede poner numeros negativos")
+		alert("No puede poner numeros negativos")
 		
 	}else if(campo==""){
-		alert("Otra vez usted pendejo");
+		alert("Ingresa los datos");
 
 	}else if(campo.match(validar)){
 		var resultado = (monto*0.02);
@@ -15,7 +15,7 @@ function leerValores(){
 	//alert("LeerValores: "+resultado);
 	document.getElementById('monto').textContent = "Monto actual: "+resultadof+" pesos";
 	}else{
-		alert("Ingrese solo números chingada madre!!!");
+		alert("Ingrese solo números!!!");
 	}
        
 }
