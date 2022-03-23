@@ -21,7 +21,7 @@
                 <input type="text" class="problema-input" placeholder="Ingresa las palabras separadas por un espacio: " 
                 id="p1-input" >
                 <button type="button" class="problema-button"
-                style="margin-top: 1rem;" onclick="">Invertir palabras</button>
+                style="margin-top: 1rem;" onclick="problema1()">Invertir palabras</button>
                 <pre class="problema-output"
                 id="p1-output">Esperando datos...</pre>
                 
@@ -45,7 +45,7 @@
             <div class="problema-content">
                 <div class="tablas" style="width: 100%; 
                 display: flex; justify-content: center;">
-                    <table class="probelma-table" style="width: 40%;">
+                    <table class="problema-table" style="width: 40%;">
                         <thead>
                             <tr>
                                 <th><em>X</em></th>
@@ -54,7 +54,7 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td>x1</td>
+                                <td id="x1">x1</td>
                                 <td><input type="number"
                                     class="problema-input"
                                     id="p2-x1"></td>
@@ -129,7 +129,7 @@
                 </div>
                 
                 <button type="button" class="problema-button"
-                style="margin-top: 1rem;" onclick="">Calcular Vector</button>
+                style="margin-top: 1rem;" onclick="problema2()">Calcular Vector</button>
                 <pre class="problema-output"
                 id="p2-output">Esperando datos...</pre>
                 
@@ -140,7 +140,7 @@
 
     <!--Problema 3-->
     <div class="problema-container">
-        <h2 class="problema-title">Problema #1</h2>
+        <h2 class="problema-title">Problema #3</h2>
         <h3>Dad una lista de palabras, encontrar la que mas caracteres unicos tiene.
             <br>
             Ej: CASA=3(c,a,s) PERRO=4(p,e,r,o)
@@ -153,13 +153,14 @@
             <input type="text" class="problema-input" placeholder="Ingresa las palabras separadas por un espacio: " 
             id="p3-input" >
             <button type="button" class="problema-button"
-            style="margin-top: 1rem;" onclick="">Invertir palabras</button>
-            <pre class="monto" name="monto"
-            id="monto"  >Esperando datos...</pre>
+            style="margin-top: 1rem;" onclick="problema3()">Buscar caracteres</button>
+            <pre class="problema-output"
+            id="p3-output">Esperando datos...</pre>
             
 
         </div>
 </div>
 
+<script src="logica.js"></script>
 </body>
 </html>
