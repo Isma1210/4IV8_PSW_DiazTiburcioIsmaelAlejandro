@@ -1,0 +1,41 @@
+body{
+    background-image: url('fondo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family:sans-serif
+    
+}
+
+header{
+    padding-top: 0%;
+    text-align: center;
+    background-color: rgb(21, 105, 105);
+    width: 100%;
+}
+
+h1{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.cajas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 2%;
+    width: 80%;
+}
+
+.caja{
+    background-color: brown;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+
+
+}
