@@ -76,6 +76,6 @@
     height: 200px;
     display: flex;
     justify-content: center;
-    animation: animacion_test 2s alternate infinite;
+    animation: animacion_test 1.5s alternate infinite;
 }
 

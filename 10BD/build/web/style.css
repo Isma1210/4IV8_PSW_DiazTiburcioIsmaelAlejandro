@@ -1,0 +1,75 @@
+*{
+    font-family: 'Courier New', Courier, monospace,sans-serif;
+    color: white
+}
+
+.fondo{
+    background-image: url('fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#boton{
+    background-color: black;
+}
+
+#nombre{
+    background-color: black;
+}
+
+#appat{
+    background-color: black;
+}
+
+#apmat{
+    background-color: black;
+}
+
+#boleta{
+    background-color: black;
+}
+
+#telefono{
+    background-color: black;
+}
+
+#boletaelimina{
+    background-color: black;
+}
+
+.cajas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 2%;
+    width: 80%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 50%;
+    
+}
+
+.registro{
+    background-image: url('descarga.jfif');
+    width: 20rem;
+    height: 25rem;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+
+
+}
+
+.eliminar{
+    background-image: url('descarga.jfif');
+    width: 20rem;
+    height:25rem;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+}

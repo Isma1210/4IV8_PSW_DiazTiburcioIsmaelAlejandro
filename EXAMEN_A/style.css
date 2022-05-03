@@ -1,0 +1,619 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    background-color: #6c1d45;
+    color: black; 
+    font-size: 1rem;
+    font-family: 'Arial';
+    
+}
+.header{
+    background-color: #b0afaf;
+    height: 5rem;
+    color: black;
+    padding: 1rem 1rem;
+    left: 0;
+    top: 0;
+    right: 0;
+    position: fixed;
+}
+.header a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.875rem;
+}
+
+.navegation ul{
+    margin: 0;
+    padding-top: 2.5rem;
+    list-style: none;
+    /* margin-right: 16.2rem; */
+}
+    .navegation ul li{
+        display: inline-block;
+    }
+        .navegation ul li a{
+            display: block;
+            padding: 0.4rem 1rem;
+            transition: all 0.4s linear;
+            border-radius: 0313rem;
+            font-size: 1.125rem;
+            margin-right: 4rem;
+        }
+            .navegation ul li a:hover{
+                background-color: #ffffff;
+            }
+
+
+
+h1{
+    text-align: center;
+    padding-top: -3rem;
+    margin-top: -3rem;
+    padding-right: 10rem;
+    padding-bottom: 3rem;
+    font-size: 30px;
+    font-weight:500;
+}
+
+#mi-id{
+    width: 5.4rem;
+    height: 5.4rem;
+    margin-left: 2.5rem;
+    margin-top: 0;
+    display:inline-block;
+}
+
+
+
+#dot{
+    width: 6.4rem;
+    height: 6.4rem;
+    margin-right: 2rem;
+    margin-top: -1rem;
+
+    float: right;
+    
+    position: relative;
+}
+
+#perfil{
+    width: 5rem;
+    height: 5rem;
+    margin-left: -5rem;
+    margin-top: -1rem;
+    float: right;
+}
+
+.container{
+    padding-top: 12rem;
+    margin: 0 auto ;
+    text-align: justify;
+    padding-left: 12rem;
+    padding-right: 1rem; 
+
+}
+
+.container-regproblema{
+    padding-top: 16rem;
+    text-align: center;
+    border-radius: 2rem;
+    background-color: white; 
+
+}
+/* 
+.text{
+    width: 45.75rem;
+    height: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-right: 5rem;
+} */
+/* Estilos de menu superior */
+.logo-encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    flex-wrap: wrap;
+}
+
+.opcion ul{
+    margin: 0;
+    padding-top: 1rem;
+    list-style: none;
+    margin-left: 29.5rem;
+    margin-bottom: 5rem;
+}
+    .opcion ul li{
+        display:inline-block;
+        padding-right: 3rem;
+    }
+        .opcion ul li a{    
+            display: block;
+            padding: 0.5rem .5rem;
+            transition: all 0.4s linear;
+            border-radius: 100%;
+            height: 1rem;
+            width: 1rem;
+            font-size: 1.125rem;
+            text-decoration: none;
+            color: white;
+            position: sticky;
+            text-align: center;
+        }
+            .opcion ul li a:hover{
+                background-color: #b16088;
+            }
+/* Fin Estilos Menu superior */
+
+/* Inicio Estilos para Iniciar Sesion */
+.in-datos {
+    background-color: white;
+    width: 22rem;
+    height: 22rem;
+    border-radius: 2rem;
+    margin-top: 6rem;
+    margin-left: 35%;
+}
+
+#titulo_in{
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+
+.label_iniciar{
+    padding-left: 2rem;
+    padding-top: 1.5rem;
+    font-size: 1.35rem;
+}
+
+#input_usu{
+    margin-left: 2rem;
+    border: none;
+    border-bottom: 1px solid black;
+    
+}
+
+#input_contra{
+    margin-left: 2rem;
+    border: none;
+    border-bottom: 1px solid black;
+    
+}
+
+
+
+#registrarse{
+    margin-left: 1.9rem;
+    margin-top: 1rem;
+}
+
+#registrarse a{
+    text-decoration: none;
+    color: black;
+}
+
+#iniciar{
+    margin-left: 1.9rem;
+    margin-top: 1rem;
+}
+
+#iniciar a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Fin estilo para iniciar sesion */
+
+/* Estilos para registrar problema */
+#titulo-regproblema{
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.label-regproblema{
+    font-size: 1.35rem;
+    padding-left: 2rem;
+    padding-top: 1.5rem;
+    font-size: 1.35rem;
+    
+}
+
+#input_id_lab{
+    margin-left: 2rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#input_id_reporte{
+    margin-left: 2rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#input_fecha{
+    margin-left: 2rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#input_hora{
+    margin-left: 2rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#input_id_maquina{
+    margin-left: 2rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#input_id_reporte{
+    margin-left: 2rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#input_estado{
+    margin-left: 2rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#input_prioridad{
+    margin-left: 2rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#input_asignatura{
+    margin-left: 2rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#input_grupo{
+    margin-left: 2rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#input_no_empleado{
+    margin-left: 2rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#input_id_equipo{
+    margin-left: 2rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#input_desproblema{
+    margin-left: 2rem;
+    width: 40%;
+    height: 40%;
+}
+
+.texto_regproblema{
+    resize: none;
+    margin-left: 4.9rem;
+    margin-top: 1rem;
+    
+}
+
+#input_id_persona{
+    margin-left: 2rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#input_rol{
+    margin-left: 2rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#reportar-problema{
+    margin-bottom: 1rem;
+    margin-left: 41%;
+    width: 5rem;
+}
+
+#reportar-problema a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+
+
+.reg-problema {
+    background-color: white;
+    width: 40%;
+    height: auto;
+    border-radius: 2rem;
+    margin-top: 8rem;
+    margin-left: 23rem;
+}
+
+.botones-regproblema{
+    margin-bottom: 2rem;
+    margin-right: -1rem;
+    position: relative;
+}
+
+/* Fin estilos para registrar problema */
+
+
+/* Estilos para editar registros de problemas */
+
+#titulo-editproblema{
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.label-editproblema{
+    font-size: 1.35rem;
+    padding-left: 2rem;
+    padding-top: 1.5rem;
+    font-size: 1.35rem;
+    
+}
+
+#edit-fecha_hora{
+    margin-left: 2rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#edit-estado{
+    margin-left: 2rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#edit-prioridad{
+    margin-left: 2rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#edit-asignatura{
+    margin-left: 2rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#edit-grupo{
+    margin-left: 2rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#edit-no_empleado{
+    margin-left: 2rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#edit-id_equipo{
+    margin-left: 2rem;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#edit-desproblema{
+    margin-left: 2rem;
+    width: 40%;
+    height: 40%;
+}
+
+.texto-editproblema{
+    resize: none;
+    margin-left: 4.9rem;
+    margin-top: 1rem;
+    
+}
+
+#editar-problema{
+    margin-bottom: 1rem;
+    margin-left: 41%;
+}
+
+#editar-problema a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.edit-problema {
+    background-color: white;
+    width: 40%;
+    height: auto;
+    border-radius: 2rem;
+    margin-top: 8rem;
+    margin-left: 23rem;
+}
+
+.botones-editproblema{
+    margin-bottom: 2rem;
+    margin-right: -1rem;
+    position: relative;
+}
+/* Fin estilos de editar registros de problemas */
+
+
+/* Estilos para registro de persona */
+.in_registro {
+    background-color: white;
+    width: 22rem;
+    height: 90%;
+    border-radius: 2rem;
+    margin-top: 7rem;
+    margin-left: 35%;
+}
+
+#input_nombre{
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+    border: none;
+    border-bottom: 1px solid black;  
+}
+
+#input_foto{
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+    border: none;
+    border-bottom: 1px solid black;  
+}
+
+#input_appat{
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+    border: none;
+    border-bottom: 1px solid black;  
+}
+
+#input_apmat{
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+    border: none;
+    border-bottom: 1px solid black;  
+}
+
+#input_nEmpleado{
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+    border: none;
+    border-bottom: 1px solid black;  
+}
+
+#input_sexo{
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+    border: none;
+    border-bottom: 1px solid black;  
+}
+
+#input_fechaNacimiento{
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+    border: none;
+    border-bottom: 1px solid black;  
+}
+
+#input_usuario{
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+    border: none;
+    border-bottom: 1px solid black;  
+}
+
+#input_contrasena{
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+    border: none;
+    border-bottom: 1px solid black;  
+}
+
+#input_confirmar{
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+    border: none;
+    border-bottom: 1px solid black;  
+}
+
+#reg_sesion{
+    margin-bottom: 1.5rem;
+    padding-left: 1rem;
+}
+
+#registrar{
+    margin-left: 7.5rem;
+    margin-bottom: 1rem;  
+}
+
+.botones_reg button{
+    margin-bottom: 2rem;
+    margin-right: -1rem;
+    
+}
+
+#actualizar{
+    margin-left: 7.5rem;
+    margin-bottom: 1rem;  
+}
+
+/*Fin estilos para registro*/
+
+/* Estilos de captcha */
+
+.contain {
+	display: flex;
+	justify-content: center;
+	margin-top: 0.625rem;
+}
+#capt {
+	width: 5rem;
+	height: 22px;
+	font-size: 20px;
+	background-color: #2C31CF;
+	padding: 5px;
+	border: none;
+	letter-spacing: 1px;
+	float: left;
+	color: #E9E91D;
+	border-radius: 5px 0 0 5px;
+}
+#refresh {
+	float: left;
+	background-color: #2C31CF;
+	height: 32px;
+	border-radius: 0 5px 5px 0;
+}
+#refresh img {
+	margin-top: 5px;
+	cursor: pointer;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+#textinput {
+	width: 7rem;
+	height: 22px;
+	font-size: 20px;
+	background-color: #252521;
+	border: none;
+	margin-left: 10px;
+	border-radius: 5px;
+	padding: 5px;
+	color: #D58A1E;
+}
+.contain button {
+	padding: 8px 20px;
+	height: 35px;
+	cursor: pointer;
+	border: none;
+	border-radius: 5px;
+	margin-top: 40px;
+	background-color: #764D11;
+	color: #CED4F0;
+	transition: .5s;
+}
+.contain button:hover {
+	background-color: #976216;
+}
+
+
+
+
+
+/* Fin de estilos captcha */
+
+           

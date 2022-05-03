@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERFIL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-encabezado">
+            <a href="https://www.cecyt9.ipn.mx/" class="logo"><img id="mi-id" src="escudoCECyT9R.png" alt=""></a>
+            <a href="index.html"><img id="dot" src="examen_logo.png" alt=""></a>
+
+        <nav class="navegation"> 
+            <ul>
+                <li><a href="LSD.html">LSD</a></li>
+                <li><a href="LBD.html">LBD</a></li>
+                <li><a href="LVT.html">LVT</a></li>
+                <li><a href="40.html">4.0</a></li>
+            </ul>
+        </nav>
+              
+        </div>
+        
+    </header>
+  
+    
+    <main>
+        <br>
+        <div class="in_registro">
+       
+            <h2 id="titulo_in">Perfil</h2>
+            <form action="post" name="reg_sesion" id="reg_sesion" onsubmit="return validarRegistro()" >
+                <p>Nombre</p>
+                <input type="text" maxlength="50" id="input_nombre" required>
+                <p>Apellido Paterno</p>
+                <input type="text" maxlength="50" id="input_appat" required>
+                <p>Apellido Materno</p>
+                <input type="text" maxlength="50" id="input_apmat" required>
+                <p>Foto</p>
+                <input type="file" onchange="validarRegistro()" id="input_foto" required>
+                <p>No. Empleado</p>
+                <input type="number" maxlength="10" id="input_nEmpleado" required>
+                <p>Sexo</p>
+                <select id="input_sexo"  required>
+                    <option value="H">Hombre</option>
+                    <option value="M">Mujer</option>
+                    <option value="N">No especificar</option>
+                </select>
+                <p>Fecha de nacimiento</p>
+                <input type="date" id="input_fechaNacimiento" required>
+                <p>Usuario (digite 10 numeros)</p>
+                <input type="text" id="input_usuario" maxlength="10" required>
+                <p>Contraseña</p>
+                <input type="password" id="input_contrasena" maxlength="20" minlength="7" required>
+                <p>Confirmar contrase&ntilde;a</p>
+                <input type="password" id="input_confirmar" maxlength="20" minlength="7" required>
+                <br>
+                <div class="botones-reg">
+                    <!--<button id="iniciar" onclick="validarRegistro()"><a href="#">Registrarse</a></button>-->
+                    <input id="actualizar" type="submit" value="Actualizar">
+                </div>
+                
+            </form>
+    
+        </div>
+        <script src="validacionReg2.js"></script>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts.js"></script>
+    <script src="validacionReg2.js"></script>
+</body>
+</html>

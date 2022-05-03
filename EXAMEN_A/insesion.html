@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="in-datos">
+       
+        <h2 id="titulo_in">Iniciar Sesión</h2>
+        <form action="post" id="in_sesion" name="in_sesion" onsubmit=" return validarIn()">
+            <p class="label_iniciar">Usuario</p>
+            <input type="text" id="input_usu">
+            <p class="label_iniciar">Contraseña</p>
+            <input type="password" id="input_contra">
+            <br>
+            <br>
+            <div class="contain">
+                <input type="text" id="capt" readonly="readonly" >
+                <div id="refresh"> <img src="refresh.svg" width="50px" onclick="cap()"></div>
+
+                <input type="text" id="textinput" placeholder="enter..">
+                <button onclick="validcap()" id="checar_cap">Check</button>
+
+            </div> 
+            <button id="registrarse"><a href="registro2.html">Registrarse</a></button>
+            <a href="index.html"><input id="iniciar" type="submit" value="Iniciar Sesión"></a>
+
+                   
+
+        </form>
+
+
+
+    </div>
+
+
+
+    <script src="validacionIn.js"></script>
+</body>
+</html>

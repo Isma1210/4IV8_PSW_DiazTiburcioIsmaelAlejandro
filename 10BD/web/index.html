@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body class="fondo">
+        <div class="container" >
+            <center><h1>Consulta de Alumnos de Batiz</h1></center>
+            <br>
+        </div>
+        
+        <div class="cajas">
+            <div class="registro" >
+                <br>
+                <form name="formulario" method="post" action="RegistrarAlumnos" >
+                    <label>Nombre</label>
+                    <br>
+                    <input type="text" name="nombre" id="nombre"  >
+                    <br>
+                    <br>
+                    <label>Apellido Paterno</label>
+                    <br>                
+                    <input type="text" name="appat" id="appat"  >
+                    <br>
+                    <br>
+                    <label>Apellido Materno</label>
+                    <br>                    
+                    <input type="text" name="apmat" id="apmat"  >
+                    <br>
+                    <br>
+                    <label>Boleta</label>
+                    <br>                    
+                    <input type="number" name="boleta" id="boleta"  >
+                    <br>
+                    <br>
+                    <label>Telefono</label>                    
+                    <br>
+                    <input type="number" name="telefono" id="telefono"  >
+                    <br>
+                    <br>
+                    <input type="submit" value="Registrar Nuevo Alumno" id="boton" onclick="registro()">
+                    <br>
+                    <br>
+                    <input type="reset" value="Borrar Datos" id="boton" >
+                    <br>
+                    <input type="button" value="Validar" id="boton" onclick="validar()">
+                </form>
+            </div>
+            <div class="eliminar" >
+                <form method="get" action="EliminarAlumno" name="elimina" >
+                    <br>
+                    <br>
+                    <label>Ingrese la Boleta para dar de baja a un alumno</label>
+                    <br>
+                    <br>
+                    <input type="text" name="boletaelimina" id="boletaelimina" >
+                    <br>
+                    <br>
+                    <input type="submit" value="Dar de Baja" id="boton" onclick="validar2()">
+                </form>
+                
+            </div>
+        </div>
+
+        <br>
+        <center><a href="ConsultarAlumnos">Consultar Lista</a></center>
+        <script src="validacion.js"></script>
+        
+        
+    </body>
+</html>
